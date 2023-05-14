@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +36,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.nav{
+  display: none;
+}
+
+.nav-mobile{
+  display: flex;
+}
+
+.hide {
+  display:  none;
+}
+.show{
+  display: ;
+}
+
+@media  screen and (min-width: 768px) {
+  .nav{
+    display: inline-flex;
+  }
+  .nav-mobile{
+    display: none; 
+
+  }
+}
+
+.bg-hero{
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 50vw;
+}
+
+@media screen and (max-width: 750px) {
+  .bg-hero{
+    background-position: center;
+  }
+}
+
+.bg-about{
+  background-position: center;
+  /* background-position-x: left;
+  background-position-y: bottom; */
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  
 }
