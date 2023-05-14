@@ -1,7 +1,7 @@
 {
   "name": "manage",
   "version": "0.1.0",
-  "message": "http://{vinceflores}.github.io/{manageLandingPage}",
+  "homepage": "http://vinceflores.github.io/manage_LandingPage",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
